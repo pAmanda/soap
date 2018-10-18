@@ -9,7 +9,7 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-@Endpoint //Candidado a processar as mensagens soap que chega
+@Endpoint //Candidato a processar as mensagens soap que chega
 public class CountryEndpoint  {
 
   private CountryRepository countryRepository;
